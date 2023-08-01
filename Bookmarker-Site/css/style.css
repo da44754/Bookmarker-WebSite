@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Pacifico', cursive;
+    isolation: isolate;
+}
+.main{
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+.dotted-underline {
+    border-bottom: 1px dotted;
+    display: block;
+    height: 1px;
+    width: 100%;
+}
+.dotted-underline::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-repeat: repeat-x;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-solid{
+    font-weight: 900;
+}
+.btn-visit{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
+.btn-delete {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #eb1d36;
+    --bs-btn-border-color: #eb1d36;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d30820;
+    --bs-btn-hover-border-color: #ba081d;
+}
+
+
+
